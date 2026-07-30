@@ -1,8 +1,30 @@
 aid: kodable
 name: Kodable
-description: Kodable is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kodable is a San Diego, California based educational technology company that makes
+  self-guided coding, computer science, and digital literacy games for elementary school students in
+  grades K-5. Its product line includes Kodable Basics (an introduction to programming concepts for
+  pre-readers), Kodable Creator (game design and coding with AI-assisted tutoring), Kodable Typing
+  (keyboarding practice), and Bug World (JavaScript and object-oriented programming). Kodable sells to
+  elementary schools and districts as well as directly to parents, pairing the student games with a
+  teacher dashboard, K-5 curriculum, lesson plans, and professional development. The company is a
+  Student Privacy Pledge signatory and a member of the Student Data Privacy Consortium, and publishes
+  a privacy center covering COPPA, its EULA, terms of service, and district Data Privacy Agreement
+  review. Kodable was surfaced as a 500 Global portfolio company. As of this enrichment pass Kodable
+  publishes no public API, developer portal, SDKs, or machine-readable API artifacts - it is a
+  consumer and school facing application rather than an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/kodable/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62f10984b7ece0cd68b339a1/65d39fd76cabe2c1a0fcfee7_kodable.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Learning
+- Coding Education
+- Computer Science
+- Games
+- Children
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kodable.com
+  url: https://www.kodable.com/
+- type: Login
+  url: https://game.kodable.com
+- type: SignUp
+  url: https://www.kodable.com/register
+- type: Pricing
+  url: https://www.kodable.com/plans
+- type: Support
+  url: https://support.kodable.com/
+- type: Blog
+  url: https://www.kodable.com/learn
+- type: PrivacyPolicy
+  url: https://www.kodable.com/privacy
+- type: TermsOfService
+  url: https://resources.kodable.com/KodableTOS.pdf
+- type: Compliance
+  url: https://www.kodable.com/privacy
+- type: About
+  url: https://www.kodable.com/about
+- type: Careers
+  url: https://www.kodable.com/careers
+- type: Conformance
+  url: conformance/kodable-conformance.yml
+- type: DomainSecurity
+  url: security/kodable-domain-security.yml
+- type: LLMsTxt
+  url: llms/kodable-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
