@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the Kodable web and application hosts
+note: >-
+  No /.well-known/ discovery documents are published on any Kodable host. Every path probed
+  returned 404. Recorded here so re-runs of the enrichment pipeline do not re-probe blindly.
+  No WellKnown or SecurityTxt pointer is wired into apis.yml because nothing was found.
+hosts:
+- host: https://www.kodable.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://game.kodable.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://support.kodable.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

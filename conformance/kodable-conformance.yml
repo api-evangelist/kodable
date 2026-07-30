@@ -1,0 +1,56 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.kodable.com/privacy
+note: >-
+  Kodable publishes no API, so there are no API-level standards (OAuth 2.0, OIDC, RFC 9457,
+  JSON:API, pagination or idempotency conventions) to assert. What Kodable does publish is a
+  student-data-privacy compliance posture, captured below. Each entry is evidenced by a
+  statement or badge on the Kodable Privacy Center.
+standards:
+- id: coppa
+  name: Children's Online Privacy Protection Act
+  conforms: true
+  evidence: >-
+    Privacy Center carries an "A Note on COPPA" section stating the Kodable game does not
+    collect personally identifiable information from children, and links to coppa.org.
+  url: https://www.kodable.com/privacy
+- id: student-privacy-pledge
+  name: Student Privacy Pledge
+  conforms: true
+  evidence: Privacy Center displays a "Student Privacy Pledge Signatory" badge linking to the signatory list.
+  url: https://studentprivacypledge.org/signatories/
+- id: sdpc
+  name: Student Data Privacy Consortium
+  conforms: true
+  evidence: Privacy Center displays a "Student Data Privacy Consortium Member" badge.
+  url: https://www.kodable.com/privacy
+- id: district-dpa
+  name: District Data Privacy Agreement review
+  conforms: true
+  evidence: >-
+    Privacy Center offers a DPA review process for districts, with a submission form and a
+    dedicated dpa@kodable.com contact.
+  url: https://www.kodable.com/privacy
+- id: soc2
+  name: SOC 2
+  conforms: false
+  evidence: No SOC 2 report, trust center, or security certification page found on any Kodable host.
+- id: iso-27001
+  name: ISO/IEC 27001
+  conforms: false
+  evidence: No ISO 27001 certification published.
+- id: gdpr
+  name: GDPR
+  conforms: false
+  evidence: Not referenced on the Privacy Center as of the 2023-06-08 last-edited date.
+contacts:
+  privacy: privacy@kodable.com
+  dpa: dpa@kodable.com
+  support: support@kodable.com
+documents:
+- name: End User License Agreement
+  url: https://resources.kodable.com/KodableEULA.pdf
+  status: 200
+- name: Terms of Service
+  url: https://resources.kodable.com/KodableTOS.pdf
+  status: 200
